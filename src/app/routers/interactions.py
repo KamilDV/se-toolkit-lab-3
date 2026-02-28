@@ -8,7 +8,7 @@ from app.db.interactions import read_interactions
 from app.models.interaction import InteractionModel
 
 router = APIRouter()
-
+ 
 
 @router.get("/", response_model=list[InteractionModel])
 async def get_interactions(
