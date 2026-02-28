@@ -5,6 +5,7 @@ from datetime import datetime
 from sqlmodel import Field, SQLModel
  
 
+
 class InteractionLog(SQLModel, table=True):
     """An interaction log entry in the database."""
 
