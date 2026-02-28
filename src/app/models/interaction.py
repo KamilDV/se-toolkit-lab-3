@@ -16,7 +16,7 @@ class InteractionLog(SQLModel, table=True):
     kind: str
     created_at: datetime | None = Field(default=None)
 
-
+ 
 class InteractionModel(SQLModel):
     """Response schema for an interaction."""
 
